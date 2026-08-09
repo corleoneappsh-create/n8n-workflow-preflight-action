@@ -55,9 +55,9 @@ n8n Workflow Preflight: 1 file(s), 0 error(s), 0 warning(s)
 
 Unsafe findings are emitted as native GitHub Actions annotations so they appear directly in the Checks UI.
 
-## Related n8n reliability tool
+## Reliability Toolkit Pro
 
-For post-failure diagnosis, batch incident triage, retry-safety guidance, workflow risk hints, and Markdown incident reports, see **n8n Failed Execution Doctor Pro**:
+Need more than the free CI annotations? **n8n Reliability Toolkit Pro ($29 one-time)** adds deep Markdown/JSON preflight reports, broken-connection and webhook-path checks, external-domain and credential-type inventory, plus **Incident Doctor Pro** for batch post-failure diagnosis, severity, retry-safety guidance, and incident reports.
 
 https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
 
