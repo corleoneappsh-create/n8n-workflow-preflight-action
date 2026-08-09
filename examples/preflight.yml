@@ -1,0 +1,23 @@
+name: n8n workflow preflight
+
+on:
+  push:
+    paths:
+      - 'workflows/**.json'
+  pull_request:
+    paths:
+      - 'workflows/**.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate exported n8n workflows
+        uses: corleoneappsh-create/n8n-workflow-preflight-action@v1
+        with:
+          path: workflows
+          fail-on: error
