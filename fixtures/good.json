@@ -1,0 +1,9 @@
+{
+  "name": "Safe example",
+  "active": false,
+  "nodes": [
+    {"id":"1","name":"Start","type":"n8n-nodes-base.manualTrigger","typeVersion":1,"position":[0,0],"parameters":{}},
+    {"id":"2","name":"Transform","type":"n8n-nodes-base.code","typeVersion":2,"position":[240,0],"parameters":{"jsCode":"return $input.all();"}}
+  ],
+  "connections": {"Start":{"main":[[{"node":"Transform","type":"main","index":0}]]}}
+}

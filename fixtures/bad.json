@@ -1,0 +1,47 @@
+{
+  "name": "Unsafe example",
+  "active": true,
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "2",
+      "name": "Shell",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "command": "echo safe"
+      }
+    },
+    {
+      "id": "3",
+      "name": "API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "headers": {
+          "Authorization": "Bearer demo_xxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "note": "sk-AAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    }
+  ],
+  "connections": {}
+}

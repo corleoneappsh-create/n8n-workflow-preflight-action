@@ -1,0 +1,27 @@
+name: n8n Workflow Preflight
+description: Deterministic CI checks for exported n8n workflow JSON before merge or deployment.
+author: Boris Automation
+branding:
+  icon: check-circle
+  color: orange
+inputs:
+  path:
+    description: Workflow JSON file or directory to scan.
+    required: false
+    default: .
+  fail-on:
+    description: Failure threshold: error, warning, or never.
+    required: false
+    default: error
+outputs:
+  files:
+    description: Number of JSON files scanned.
+  errors:
+    description: Number of blocking findings.
+  warnings:
+    description: Number of warnings.
+  summary-json:
+    description: Compact machine-readable summary.
+runs:
+  using: node24
+  main: main.js

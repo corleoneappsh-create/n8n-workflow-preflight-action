@@ -1,0 +1,28 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Unit tests
+        run: node test.js
+      - name: Self-test clean workflow
+        uses: ./
+        with:
+          path: fixtures/good.json
+          fail-on: error
+      - name: Self-test unsafe workflow
+        id: unsafe
+        continue-on-error: true
+        uses: ./
+        with:
+          path: fixtures/bad.json
+          fail-on: error
+      - name: Assert unsafe fixture fails
+        shell: bash
+        run: |
+          test "${{ steps.unsafe.outcome }}" = "failure"
