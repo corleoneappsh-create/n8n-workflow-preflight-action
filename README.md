@@ -33,6 +33,8 @@ jobs:
           fail-on: error
 ```
 
+Want a ready-to-copy repository layout instead? See [`examples/`](./examples/README.md) for a minimal workflow fixture plus a CI file with read-only permissions.
+
 `path` can point to one workflow JSON or a directory. Directory scans ignore unrelated JSON files that do not look like n8n workflows.
 
 ## Failure policy
