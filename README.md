@@ -4,6 +4,8 @@ Deterministic GitHub Action for checking exported n8n workflow JSON before merge
 
 [![CI](https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/actions/workflows/ci.yml/badge.svg)](https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/actions/workflows/ci.yml)
 
+> **Need deeper reports and post-failure diagnosis?** [n8n Reliability Toolkit Pro — $29 one-time](https://zbewt1-yh.myshopify.com/cart/43173943803966:1?checkout&ref=github_action&utm_source=github&utm_medium=repository&utm_campaign=n8n_reliability_toolkit&utm_content=preflight_top_cta) adds detailed Markdown/JSON preflight reports plus Incident Doctor Pro. No subscription is required.
+
 ## What it catches
 
 - invalid JSON and malformed workflow structure;
