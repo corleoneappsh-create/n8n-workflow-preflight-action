@@ -61,7 +61,9 @@ Unsafe findings are emitted as native GitHub Actions annotations so they appear 
 
 Need more than the free CI annotations? **n8n Reliability Toolkit Pro ($29 one-time)** adds deep Markdown/JSON preflight reports, broken-connection and webhook-path checks, external-domain and credential-type inventory, plus **Incident Doctor Pro** for batch post-failure diagnosis, severity, retry-safety guidance, and incident reports.
 
-https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
+**Buy Toolkit Pro:** https://zbewt1-yh.myshopify.com/cart/43173943803966:1?checkout&ref=github_action
+
+**See full details:** https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
 
 ## Security boundary
 
