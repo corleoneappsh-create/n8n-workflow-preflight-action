@@ -67,6 +67,21 @@ Need more than the free CI annotations? **n8n Reliability Toolkit Pro ($29 one-t
 
 **See full details:** https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
 
+## Need a human reliability review?
+
+If one workflow is already failing, duplicating actions, retrying unsafely, or breaking at an API/webhook handoff, there is now a fixed-scope **n8n Workflow Reliability Audit — $49 for one workflow**.
+
+- written findings with prioritized fixes;
+- review of retry/duplicate-action and brittle handoff risks;
+- bounded regression checklist;
+- no production credentials or live access required.
+
+**Buy the one-workflow audit:** https://zbewt1-yh.myshopify.com/products/n8n-workflow-reliability-audit-1-workflow?ref=github_preflight_audit&utm_source=github&utm_medium=repository&utm_campaign=n8n_workflow_audit&utm_content=preflight_service_cta
+
+**Open a redacted audit request / confirm fit first:** https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/issues/new?title=Workflow%20reliability%20audit%20request
+
+Never post passwords, tokens, API keys, PHI, customer records, or other sensitive data. Use only redacted or synthetic evidence.
+
 ## Security boundary
 
 The scanner is intentionally conservative and deterministic. A finding is a reason to review a workflow, not proof that a workflow is malicious. Secret detection can produce false positives; inspect the annotated path before changing production logic.
