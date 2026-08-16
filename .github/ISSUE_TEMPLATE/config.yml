@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Buy the $49 one-workflow reliability audit
+    url: https://zbewt1-yh.myshopify.com/products/n8n-workflow-reliability-audit-1-workflow?ref=github_issue_chooser&utm_source=github&utm_medium=repository&utm_campaign=n8n_workflow_audit&utm_content=issue_chooser_buy
+    about: Fixed-scope review for one failing or risky n8n workflow. No production credentials or live access required.
+  - name: See audit scope and sample deliverable
+    url: https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/blob/main/examples/SAMPLE_RELIABILITY_AUDIT.md
+    about: Review the synthetic sample before submitting a redacted audit request.
