@@ -1,0 +1,70 @@
+name: Workflow reliability audit request
+description: Request a fixed-scope reliability review for one redacted n8n workflow.
+title: "[Audit request] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use only redacted or synthetic information. Do not post passwords, tokens, API keys, PHI, customer records, or other sensitive data.
+
+  - type: input
+    id: n8n_version
+    attributes:
+      label: n8n version
+      description: Exact version if known.
+      placeholder: "e.g. 2.x.x"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: main_problem
+    attributes:
+      label: Main reliability problem
+      options:
+        - Workflow fails or stops unexpectedly
+        - Duplicate actions / duplicate sends
+        - Retry behavior is unsafe or unclear
+        - API or webhook handoff is brittle
+        - Workflow is slow or intermittently stuck
+        - Pre-deployment reliability review
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What happens now?
+      description: Describe the failure, frequency, and expected behavior using redacted details only.
+      placeholder: "What breaks, when it breaks, and what you expected instead."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted evidence
+      description: Paste sanitized error text, node names/types, timestamps, or a synthetic reproduction. Do not include credentials or customer data.
+      placeholder: "Redacted error, relevant node sequence, or synthetic reproduction steps."
+    validations:
+      required: false
+
+  - type: textarea
+    id: retries
+    attributes:
+      label: Retry / duplicate-action context
+      description: Explain any retries, loops, webhooks, external writes, emails, payments, CRM updates, or other actions that must not happen twice.
+      placeholder: "Which actions are safe to retry, and which must be exactly-once or deduplicated?"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Safety and scope confirmation
+      options:
+        - label: I removed passwords, tokens, API keys, PHI, customer records, and other sensitive data.
+          required: true
+        - label: I understand this public issue is for fit/scope confirmation; production credentials or live access are not required.
+          required: true
