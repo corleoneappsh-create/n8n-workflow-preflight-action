@@ -65,7 +65,7 @@ Need more than the free CI annotations? **n8n Reliability Toolkit Pro ($29 one-t
 
 **Buy Toolkit Pro:** https://zbewt1-yh.myshopify.com/products/n8n-reliability-toolkit-pro?utm_source=github&utm_medium=repository&utm_campaign=n8n_reliability_toolkit
 
-**See full details:** https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
+**See full details:** https://zbewt1-yh.myshopify.com/products/n8n-reliability-toolkit-pro?utm_source=github&utm_medium=repository&utm_campaign=n8n_reliability_toolkit&utm_content=preflight_details
 
 ## Need a human reliability review?
 
