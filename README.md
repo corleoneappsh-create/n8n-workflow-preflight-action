@@ -4,7 +4,7 @@ Deterministic GitHub Action for checking exported n8n workflow JSON before merge
 
 [![CI](https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/actions/workflows/ci.yml/badge.svg)](https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/actions/workflows/ci.yml)
 
-> **Need deeper reports and post-failure diagnosis?** [n8n Reliability Toolkit Pro — $29 one-time](https://zbewt1-yh.myshopify.com/cart/43173943803966:1) adds detailed Markdown/JSON preflight reports plus Incident Doctor Pro. No subscription is required.
+> **Need deeper reports and post-failure diagnosis?** [n8n Reliability Toolkit Pro — $29 one-time](https://zbewt1-yh.myshopify.com/products/n8n-reliability-toolkit-pro?utm_source=github&utm_medium=repository&utm_campaign=n8n_reliability_toolkit) adds detailed Markdown/JSON preflight reports plus Incident Doctor Pro. No subscription is required.
 
 ## What it catches
 
@@ -63,7 +63,7 @@ Unsafe findings are emitted as native GitHub Actions annotations so they appear 
 
 Need more than the free CI annotations? **n8n Reliability Toolkit Pro ($29 one-time)** adds deep Markdown/JSON preflight reports, broken-connection and webhook-path checks, external-domain and credential-type inventory, plus **Incident Doctor Pro** for batch post-failure diagnosis, severity, retry-safety guidance, and incident reports.
 
-**Buy Toolkit Pro:** https://zbewt1-yh.myshopify.com/cart/43173943803966:1
+**Buy Toolkit Pro:** https://zbewt1-yh.myshopify.com/products/n8n-reliability-toolkit-pro?utm_source=github&utm_medium=repository&utm_campaign=n8n_reliability_toolkit
 
 **See full details:** https://n8n-doctor.167-233-67-162.sslip.io/?src=github_action
 
