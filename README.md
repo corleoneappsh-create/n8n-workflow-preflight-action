@@ -80,7 +80,7 @@ If one workflow is already failing, duplicating actions, retrying unsafely, or b
 
 **Buy the one-workflow audit:** https://zbewt1-yh.myshopify.com/products/n8n-workflow-reliability-audit-1-workflow?ref=github_preflight_audit&utm_source=github&utm_medium=repository&utm_campaign=n8n_workflow_audit&utm_content=preflight_service_cta
 
-**Open a redacted audit request / confirm fit first:** https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/issues/new?title=Workflow%20reliability%20audit%20request
+**Open a redacted audit request / confirm fit first:** https://github.com/corleoneappsh-create/n8n-workflow-preflight-action/issues/new?template=workflow-reliability-audit.yml
 
 Never post passwords, tokens, API keys, PHI, customer records, or other sensitive data. Use only redacted or synthetic evidence.
 
